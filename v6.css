@@ -1,0 +1,171 @@
+/*
+border double
+// Color
+Gray: #AFAFAF
+Dark Auquamarine: #15ADB0
+Red: #FD3D3E
+Green: #8FFF91
+Cyan: #A7A3FF
+Yellow: #FEFF86
+Purple: #FF86FF
+Auquamarine: #14A5FF
+Blue: #5E5EFF
+Bright Green: #15FF90
+*/
+@import url(https://snorlaxh.github.io/neodgm/assets/neodgm.css);
+body {
+  mask-image: linear-gradient(to bottom, rbga(0,0,0,0) 0%, rgba(0,0,0,1)20%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20% );
+}
+
+body,
+html {
+  font: 24px 'NeoDunggeunmo', serif;
+  background-color: rgba(0,0,0,0.35);
+  height: 100%;
+  overflow: hidden
+}
+
+#log {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 0.5em 0.1em;
+  width: 100%;
+  box-sizing: border-box
+}
+
+#log > div {
+  background-color: black;
+  padding: 0.2em 0.5em;
+  margin: -0.3em 0.3em 0.7em 0.3em;
+  border: 0.4em double black;
+  animation: fadeInUp .5s ease, fadeOut 1s ease 15s forwards;
+}
+
+#log > div:nth-last-child(10n-9) {
+  border-color: #AFAFAF;
+}
+
+#log > div:nth-last-child(10n-8) {
+  border-color: #15ADB0;
+}
+
+#log > div:nth-last-child(10n-7) {
+  border-color: #FD3D3E;
+}
+
+#log > div:nth-last-child(10n-6) {
+  border-color: #8FFF91;
+}
+
+#log > div:nth-last-child(10n-5) {
+  border-color: #A7A3FF;
+}
+
+#log > div:nth-last-child(10n-4) {
+  border-color: #FEFF86;
+}
+
+#log > div:nth-last-child(10n-3) {
+  border-color: #FF86FF;
+}
+
+#log > div:nth-last-child(10n-2) {
+  border-color: #14A5FF;
+}
+
+#log > div:nth-last-child(10n-1) {
+  border-color: #5E5EFF;
+}
+
+#log > div:nth-last-child(10n) {
+  border-color: #15FF90;
+}
+
+.meta {
+  margin-right: -0.5em;
+  font-weight: 700;
+}
+
+.message {
+  color: #fafafa !important;
+  line-height: 1.5em;
+  margin-top: 0.9em;
+  font-weight: 400;
+}
+
+.deleted {
+  visibility: hidden;
+}
+
+.badge,
+.colon,
+.name,
+.message {
+  vertical-align: middle;
+}
+
+.badge {
+  margin-right: 0.3em;
+  height: 1em
+}
+
+.colon {
+  margin-right: 0.7em;
+}
+
+.message > img {
+  height: 1em
+}
+
+.emote_wrap {
+  position: relative;
+}
+
+.emoticon {
+  height: 24px;
+  vertical-align: middle;
+  margin: -0.1em 0;
+  image-rendering: pixelated;
+}
+
+#log > div:nth-last-child(10n-9) > span.meta, #log > div:nth-last-child(10n-9) > span.message {
+  color: #AFAFAF !important;
+}
+
+#log > div:nth-last-child(10n-8) > span.meta, #log > div:nth-last-child(10n-8) > span.message {
+  color: #15ADB0 !important;
+}
+
+#log > div:nth-last-child(10n-7) > span.meta, #log > div:nth-last-child(10n-7) > span.message {
+  color: #FD3D3E !important;
+}
+
+#log > div:nth-last-child(10n-6) > span.meta, #log > div:nth-last-child(10n-6) > span.message {
+  color: #8FFF91 !important;
+}
+
+#log > div:nth-last-child(10n-5) > span.meta, #log > div:nth-last-child(10n-5) > span.message {
+  color: #A7A3FF !important;
+}
+
+#log > div:nth-last-child(10n-4) > span.meta, #log > div:nth-last-child(10n-4) > span.message {
+  color: #FEFF86 !important;
+}
+
+#log > div:nth-last-child(10n-3) > span.meta, #log > div:nth-last-child(10n-3) > span.message {
+  color: #FF86FF !important;
+}
+
+#log > div:nth-last-child(10n-2) > span.meta, #log > div:nth-last-child(10n-2) > span.message {
+  color: #14A5FF !important;
+}
+
+#log > div:nth-last-child(10n-1) > span.meta, #log > div:nth-last-child(10n-1) > span.message {
+  color: #5E5EFF !important;
+}
+
+#log > div:nth-last-child(10n) > span.meta, #log > div:nth-last-child(10n) > span.message {
+  color: #15FF90 !important;
+}
