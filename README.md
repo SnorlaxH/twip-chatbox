@@ -12,5 +12,5 @@ Twip Chatbox에서 사용할 수 있는  CSS
 사용 중의 오류나 개선사항은 Issues에 남겨주시기 바랍니다.
 
 ## 제작자
-* https://www.twitch.tv/snorlaxh_
-* https://github.com/SnorlaxH
+* [https://www.twitch.tv/snorlaxh_](https://www.twitch.tv/snorlaxh_)
+* [https://github.com/SnorlaxH](https://github.com/SnorlaxH)
