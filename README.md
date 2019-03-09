@@ -1,6 +1,10 @@
 # Twip CSS
 Twip Chatbox에서 사용할 수 있는  CSS
 
+## 미리보기
+![preview](https://snorlaxh.github.io/twip-chatbox/v6.png)
+twip 사이트에서 제공하는 미리보기입니다.
+
 ## 사용법
 아래 코드를  Twip Chatbox 커스텀 CSS에 붙여넣기 하신 뒤 사용하시면 됩니다.
 #### V6.css
