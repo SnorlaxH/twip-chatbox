@@ -2,7 +2,7 @@
 Twip Chatbox에서 사용할 수 있는  CSS
 
 ## 미리보기
-![preview](https://snorlaxh.github.io/twip-chatbox/v6.png)
+![preview](https://github.com/SnorlaxH/twip-chatbox/blob/master/v6.png?raw=true)
 twip 사이트에서 제공하는 미리보기입니다.
 
 ## 사용법
